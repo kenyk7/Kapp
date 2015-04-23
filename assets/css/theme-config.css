@@ -1,0 +1,40 @@
+/*
+Template Name: KApp
+Version: 1.1
+Author: Keny Romero
+Author URL: http://www.creatipro.com
+*/
+/*************************
+*******Typography******
+**************************/
+#theme-icon{
+    position: fixed;
+    bottom: 20px;
+    z-index: 9999;
+    right: -125px;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+#theme-icon:hover{
+    right: 0;
+}
+#theme-icon .btn{
+    color: #fff;
+    border-radius: 0 !important;
+}
+#theme-icon .btn-default{
+    color: #444;
+}
+#theme-icon .default{
+    background: #FF6317;
+}
+#theme-icon .blue{
+    background: #2962FF;
+}
+#theme-icon .green{
+    background: #8BC34A;
+}
+#theme-icon .grey-b{
+    background: #607D8B;
+}
